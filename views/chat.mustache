@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h1>Start Talkin!</h1>
+  </div id = NewGabPost>
+  <form id = "chat" action = "/chat" method = "post">
+    <textarea id = "chatbox" name = "chatBox" rows="6" cols="80" maxlength="140" style="font-size:20px" required>
+      Gab away...</textarea>
+      <input type="hidden" name="id" value="{{userid}}">
+      <input type = "submit" value = "Submit"/>
+    </form><br><br>
+    {{#chatbox}}
+  <div class = "container">
+    {{gab}}<br><br>{{time}}<!--change to formattedTIme if using SQL DATE_FORMAT-->
+    <form action = "/chat/like" method = "post">
+    <input type="hidden" name="gabid" value="{{gabid}}"><!--not sure I am using the hidden method properl-->
+    <input type="hidden" name="id" value="{{userid}}">
+    <button type="submit" name="likebutton" class="checked">Like</button>
+  </form>
+  <form action = "/chat/delete" method = "post">
+    <button type="submit" name="deletebutton" class="checked">Delete</button>
+  </form><hr>
+    </div>
+    {{/chatbox}}
+      </div>
+    </div>
+  </body>
+</html>

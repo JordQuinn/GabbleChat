@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+  </head>
+  <body id ="loginBody">
+    <div id="container">
+          <h1>Log in or Join the Gabble</h1>
+            <form id = "login" action = "/index" method = "post">
+              <input class = "details" type="text" name = "username" placeholder = "username"/><br>
+              <input class = "details" type= "password" name = "password" placeholder = "password"/><br>
+              <button id = "sublog" type = "submit" value = "Log in"/>Log in</button>
+            </form>
+              <form id = "getToJoin" action = "/join/newuser" method = "post">
+              <button id = "subjoin" type = "submit" value = "join"/>Join the Gab</button>
+            </form>
+
+      </div>
+  </body>
+</html>

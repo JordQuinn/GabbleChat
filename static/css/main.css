@@ -1,0 +1,61 @@
+html {box-sizing:border-box;}
+*, *:before, *:after {box-sizing:inherit;}
+
+body {
+  margin:0;
+  padding:0;
+
+}
+
+#site-header{
+	width: 100%;
+	top:0px;
+	color: #2B2F26;
+	background-color: #FFFFFF;
+	z-index: 100;
+}
+
+#site header ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+#likeit{
+  font-size: 80px;
+  border-radius: 6px;
+}
+
+/*******LOGIN PAGE******/
+
+h1 {
+  color: white;
+  font-size: 40px;
+}
+
+
+#loginBody {
+  margin:0;
+  padding:0;
+  /*background: linear-gradient(to right, #070000, #4C0001 , #070000);*/
+}
+
+
+#sublog, #subjoin{
+  font-size: 20px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.details{
+  font-size: 30px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+#container{
+  text-align: center;
+  margin: 200px;
+  width: auto;
+}
+
+/*chat*/

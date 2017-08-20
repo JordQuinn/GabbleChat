@@ -1,0 +1,33 @@
+{
+  "name": "gabble",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e .js,.mustache,.css,.json app"
+  },
+  "author": "Jordan Quinn",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "config": "^1.26.1",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "express-validator": "^3.2.1",
+    "moment": "^2.18.1",
+    "mustache-express": "^1.2.5",
+    "mysql": "^2.14.1",
+    "sessions": "^0.0.2-7",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "boilerplate": {
+    "name": "express-skeleton",
+    "version": "1.0.0",
+    "author": "Michael Sweeney <jfmike@gmail.com> (https://github.com/overthemike)",
+    "license": "MIT"
+  },
+  "description": "IronYard SQL project"
+}
